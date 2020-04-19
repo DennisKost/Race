@@ -1,0 +1,193 @@
+@font-face {
+  font-family: OldEnglishTextMT;
+  src: url(../font/OldEnglishTextMT.ttf);
+}
+
+body{
+  background-color: #F0FFFF;
+  margin: 0px;
+}
+div#main {
+  width: 1400px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  opacity: 1;
+}
+
+header {
+  font-family: OldEnglishTextMT, Arial, Helvetica, sans-serif;
+  background-color: #F0FFFF;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+h1{
+  color: red;
+  font-size: 30px;
+  margin: 0px;
+}
+
+h2{
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #FF0000;
+}
+
+nav {  
+  padding: 10px 0px;
+  border-radius: 20px;
+  border-color: #808000;
+  border-width: 5px 0px;
+  border-style: solid;  
+  background-color: #FAFAD2;  
+}
+
+div{
+  margin: 70px;
+  opacity: 0.9;
+}
+
+section.mainsection {
+  min-height: 757px;
+  padding: 20px 0px 20px 0px;
+  background-repeat: repeat-y;
+  background-position-x: center;
+  background-image: url(../img/f1_main.jpg);
+}
+
+section#sectionID {
+  background-color: #F0FFFF;
+  padding: 6px 0px;
+  margin: 0px;
+  opacity: 0.9;
+}
+
+p {
+  font-size: 20px;
+  border: 1px solid greenyellow;
+  margin: auto;
+  background-color: white;
+}
+
+table.datatable {
+  text-align: left;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  background-color: rgba(128, 101, 121, 0.795);
+  opacity: 0.9;
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+  margin: auto;
+  background-color: rgba(128, 101, 121, 0.795);
+  opacity: 0.9;
+}
+
+table caption {
+  color: black;
+  padding: 5px;
+  background-color: #CD5C5C;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+tr:nth-child(even) {
+  background-color: #F5F5DC;
+}
+
+tr:nth-child(odd) {
+  background-color: #DCDCDC;
+}
+
+th {
+  background-color: #FFC0CB;
+  border: 1px solid black;
+  padding: 8px 6px;
+}
+
+td {
+  padding: 6px;
+  border: 1px solid black;
+}
+
+td.inptext {
+  padding: 4px;
+}
+
+form {  
+  text-align: center;
+  opacity: 0.9;
+}
+
+form.query input{
+  width: 200px;
+}
+
+input.button{
+  width: 100px;
+  height: 25px;
+  border: 1px ridge black;
+}
+
+select{
+  min-width: 100px;
+  min-height: 25px;
+}
+
+a {
+  font-weight: bold;
+}
+
+textarea {
+  min-width: 600px;
+  min-height: 100px;
+}
+
+div.table {
+  text-align: center;
+  width: 100%;
+  margin: auto;  
+  display: table;
+  table-layout: fixed;
+}
+
+div.row {
+  display: table-row;
+}
+
+div.cell {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+img#home{
+  width: 40px;
+  height: 40px;
+}
+
+video{
+  width: 80%;
+}
+
+blockquote{  
+  width: 80%;
+  font-size: 18px;
+  background-color: #FFFFF0;
+  border: 2px inset red;
+  margin: auto;
+  text-align: left;
+}
+
+footer {
+  font-size: 12px;
+  background-color: #F0FFFF;
+}
